@@ -79,7 +79,7 @@ function Mob(){
     for (var i = 0; i < plats.length; i++) {
       let pc = plats[i].getCords();
 
-      if(x + size > pc.x && x + size < pc.x + pc.width && y + size >= pc.y){
+      if(x + size > pc.x && x + size < pc.x + pc.width && y + size >= pc.y && y < pc.y + pc.height){
         y = pc.y - size;
         return true;
       }

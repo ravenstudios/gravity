@@ -18,7 +18,7 @@ function Platform(x, y, width){
       x:x,
       y:y,
       width:width,
-      heigt:height
+      height:height
     }
   }
 }
