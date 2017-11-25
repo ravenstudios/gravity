@@ -80,8 +80,8 @@ function Mob(){
       let pc = plats[i].getCords();
 
       if(x + size > pc.x && x + size < pc.x + pc.width && y + size >= pc.y){
-        y = pc.y - size;
-        return true;
+        // y = pc.y - size;
+        // return true;
       }
     }
   }
